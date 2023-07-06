@@ -1,5 +1,10 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: Bhara
 Build-Jdk: 17.0.4.1
+=======
+Built-By: User
+Build-Jdk: 17.0.6
+>>>>>>> c71ad39772e94d49af0fb79987333eb72f1c519a
 Created-By: Maven Integration for Eclipse
 
