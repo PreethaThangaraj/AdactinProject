@@ -1,4 +1,4 @@
-package com.AdactinMaven.Pom;
+package com.AdactinPom;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -6,10 +6,13 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.AdactinBase.BaseClass;
 
-public class SearchHotelPageImp extends BaseClass implements SearchHotelPage{
-		public SearchHotelPageImp(){	
+
+
+	public class SearchHotelPagelmp extends BaseClass implements SearchHotelPage{
+		public SearchHotelPagelmp(){	
 		PageFactory.initElements(driver, this);
 	}
+	
 	@FindBy(id = searchhotel_location_id)
 	private WebElement searchhotel_location;
 	@FindBy(id = searchhotel_hotels_id)
@@ -68,3 +71,4 @@ public class SearchHotelPageImp extends BaseClass implements SearchHotelPage{
 	}
 
 }
+

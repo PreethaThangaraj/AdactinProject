@@ -1,7 +1,6 @@
-package com.AdactinMaven.Pom;
+package com.AdactinPom;
 
 public interface SearchHotelPage {
-	
 	String searchhotel_location_id = "location";
 	String searchhotel_hotels_id = "hotels";
 	String searchhotel_roomtype_id = "room_type";
@@ -12,5 +11,6 @@ public interface SearchHotelPage {
 	String searchhotel_child_id = "child_room";
 	String searchhotel_submit_id = "Submit";
 	String searchhotel_btn_id = "radiobutton_0";
-	String searchhotel_continue_id="continue";
+	String searchhotel_continue_id="continue";  
+
 }
